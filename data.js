@@ -1,0 +1,26 @@
+const products = [
+    {
+     id:1,
+     name:'apple',
+     price:20,
+     Image:'apple.jpg'
+    },
+    {
+        id:2,
+        name:'banana',
+        price:30,
+        Image:'banana.jpg'
+    },
+    {
+        id:3,
+        name:'lemon',
+        price:40,
+        Image:'lemon.jpg'
+    },
+    {
+        id:4,
+        name:'orange',
+        price:50,
+        Image:'orange.jpg'
+    }
+]
