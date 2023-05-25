@@ -10,7 +10,7 @@ function createProducts(products) {
   </div>`
 
   card.addEventListener('click', ()=>{
-    window.open(`/Users/ASUSS/Desktop/javaScript/scrollNum/product.html?id=${products.id}`,"_self")
+    window.open(`/product.html?id=${products.id}`,"_self")
   })
   return card;
 }

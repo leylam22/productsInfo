@@ -1,16 +1,16 @@
-const params = URLSearchParams(window.location.search) 
+const params = new URLSearchParams(window.location.search) 
 console.log(params);
 const id = parseInt(params.get('id'))
 
-const products =products.find(x=>x.id==id) 
+const productss =products.find(x=>x.id==id) 
 
 const product = document.createElement('div')
-product.innerHTML=`<div class="card" style="width: 18rem;">
-<img class="card-img-top" src="./images/${products.Image}" alt="Card image cap">
+product.innerHTML=`<div class="card" style="width: 28rem; height: 33rem;">
+<img class="card-img-top" src="./images/${productss.Image}" alt="Card image cap">
 <div class="card-body">
-<h3>${products.name}</h3>
+<h3>${productss.name}</h3>
   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <p>Price:${products.price}$</p>
+  <p>Price:${productss.price}$</p>
 </div>
 </div>`
 const container = document.querySelector('.container')
